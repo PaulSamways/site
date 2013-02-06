@@ -55,5 +55,15 @@ p {
 .footer {
   border-top: 1px solid #EEE;
   font-size: .75em;
-  text-align: right;
+}
+.footer > .social ul {
+  float: right;
+  list-style-type: none;
+}
+.footer > .social ul > li {
+  display: inline-block;
+  margin-left: .5em;
+}
+.footer > .social ul > li > a {
+  text-decoration: none;
 }
