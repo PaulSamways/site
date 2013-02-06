@@ -1,9 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 1em;
   font-weight: inherit;
-  color: inherit;
 }
 
 body {
@@ -21,12 +19,22 @@ h1 {
   margin-bottom: .5em;
   white-space: nowrap;
 }
+
 h2 {
   font-size: 1.6em;
   margin-bottom: .5em;
 }
 p {
   margin: .25em 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dashed #CCC;
+}
+a:hover {
+  color: #007ADE;
+  border-bottom: 1px solid #007ADE;
 }
 .navigation {
   text-align: center;
@@ -44,10 +52,11 @@ p {
 .navigation > ul > li > a {
   display: block;
   padding: .25em 1.5em;
-  text-decoration: none;
+  border-bottom-style: none;
 }
 .navigation > ul > li > a.current {
-  color: #369;
+  color: #DE3400;
+  font-weight: 400;
 }
 .content {
   padding: 1em 0;
@@ -66,4 +75,15 @@ p {
 }
 .footer > .social ul > li > a {
   text-decoration: none;
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    margin: .5em;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navigation > ul > li > a {
+    padding: 0 .5em;
+  }
 }
