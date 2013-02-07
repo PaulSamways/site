@@ -1,3 +1,3 @@
 ### &micro;Utilties
 
-- [*&micro;Mapping*](micro/mapping) - Object -> Object mapping framework
+- [**&micro;Mapping**](micro/mapping) - Object -> Object mapping
