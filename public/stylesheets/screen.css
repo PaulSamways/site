@@ -15,7 +15,7 @@ body {
 }
 
 ul, ol {
-  margin-left: 1em;
+  margin: 0 0 1em 1em;
 }
 
 h1 {
@@ -26,19 +26,36 @@ h1 {
 
 h2 {
   font-size: 1.6em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+h3 {
+  font-size: 1.3em;
+  border-left: .4em solid #EEE;
+  padding-left: .5em;
   margin-bottom: .5em;
+  line-height: 1.6em;
 }
 p {
-  margin: .25em 0;
+  margin: .25em 0 .75em 0;
 }
 a {
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px dashed #CCC;
 }
 a:hover {
   color: #007ADE;
-  border-bottom: 1px solid #007ADE;
+}
+code {
+  font-size: .7em;
+  line-height: 1.4em;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  margin: 1em;
+  padding: 1em;
+  border: 1px solid #CCC;
+  background-color: #EEE;
+  display: block;
+  white-space: pre-wrap;
 }
 .navigation {
   text-align: center;
@@ -57,7 +74,6 @@ a:hover {
 .navigation > ul > li > a {
   display: block;
   padding: .25em 1.5em;
-  border-bottom-style: none;
 }
 .navigation > ul > li > a.current {
   color: #DE3400;
@@ -65,6 +81,12 @@ a:hover {
 }
 .content {
   padding: 1em 0;
+}
+.content a {
+  border-bottom: 1px dashed #CCC;
+}
+.content a:hover {
+  border-bottom: 1px solid #007ADE;
 }
 .footer {
   border-top: 1px solid #EEE;
@@ -77,9 +99,6 @@ a:hover {
 .footer > .social ul > li {
   display: inline-block;
   margin-left: .5em;
-}
-.footer > .social ul > li > a {
-  text-decoration: none;
 }
 
 @media screen and (max-width: 980px) {
