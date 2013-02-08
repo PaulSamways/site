@@ -1,6 +1,5 @@
-> All the source code published on this website is free to use under the [BSD License](license). 
-> Any resemblance of code posted here and code written by myself while being an employee of an organisation is purely coincidental.
+All the source code published on this website is free to use under the [BSD License](license). 
 
-### &micro;Utilties
+### Projects 
 
-- [**&micro;Mapping**](micro/mapping) - Object -> Object mapping
+- [**&micro;Mapper**](mapper) - C# class for Object -> Object mapping
