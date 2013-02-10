@@ -54,6 +54,14 @@ a {
 a:hover {
   color: #007ADE;
 }
+table > thead td {
+  font-weight: 300;
+  border-bottom: 1px solid #EEE;
+}
+td {
+  padding: 0 1em;
+}
+
 code {
   font-size: .6em;
   line-height: 1.2em;
