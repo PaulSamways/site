@@ -6,7 +6,7 @@
 
 body {
   margin: 1em;
-  font-size: 24px;
+  font-size: 140%;
   line-height: 1.4em;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-weight: 200;
@@ -41,6 +41,7 @@ h3 {
 }
 h4 {
   font-size: 1.1em;
+  margin: 1.25em 0 .25em 0;
   font-weight: 400;
 }
 p {

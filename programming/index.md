@@ -3,4 +3,6 @@ All the source code published on this website is free to use under the [BSD Lice
 ### Projects 
 
 - [**&micro;Publish**](upublish) - Web publishing engine for Markdown files
-- [**&micro;Mapper**](mapper) - C# class for Object -> Object mapping
+
+### Snippets
+- [**Mapping**](mapping) - C# class for Object -> Object mapping

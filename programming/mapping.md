@@ -1,4 +1,4 @@
-## &micro;Mapper
+## Mapping
 
 ### about
 Simple object to object mapper.
