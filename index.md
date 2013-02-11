@@ -17,11 +17,11 @@ on [some project](/programming/), or working on my car.
 
 
 ### about this site
+
 This site came about after a mate was explaining his new Node 
 [project](https://github.com/benrhughes/crashdown) to me, and I thought that it'd 
 be an interesting exercise to do something similiar in [Go](http://golang.org). 
-So after a couple of hours of hacking away I had a basic version up and running and figured
+So after a couple of hours I had a basic version up and running and figured
 I may as well put it to use. 
 
-So you could say I wrote something interesting, then had to find a use for it, but hey,
-whatever. &#9786;
+So you could say I wrote something interesting, then had to find a use for it. &#9786;
