@@ -17,8 +17,9 @@ on [some project](/programming/), or working on my car.
 
 
 ### about this site
-This site came about after a mate was explaining his new node project to me, and
-I thought that it'd be an interesting exercise to do something similiar in Go. 
+This site came about after a mate was explaining his new Node 
+[project](https://github.com/benrhughes/crashdown) to me, and I thought that it'd 
+be an interesting exercise to do something similiar in [Go](http://golang.org). 
 So after a couple of hours of hacking away I had a basic version up and running and figured
 I may as well put it to use. 
 
