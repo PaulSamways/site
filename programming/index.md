@@ -13,10 +13,18 @@ Bits of code that I have written over the years that I feel are worth sharing.
 
 ### Ideas
 
-Project ideas that I have thought, and may have even started, that I'd still like
-to work on.
+Just some ideas that I have thought of, or may have even started, that I'd still like
+to work on oneday.
 
-- **UPnP media server** - a UPnP media server with decent web-based administration
--   **Finance**
-    To-do list style application for managing home finances. Includes being able to
-    show expenses that are coming up.
+- **UPnP media server** 
+
+UPnP media server with decent web-based administration
+
+- **Finance app**
+
+To-do list style application for managing home finances. Includes being able to
+show expenses that are coming up.
+
+- **Auto Enthusiast Community Site**
+
+A platform for building online communities tailored to auto enthusiasts.
