@@ -5,10 +5,9 @@
 
 body {
   margin: 1em;
-  font-size: 140%;
+  font-size: 100%;
   line-height: 1.4em;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: 200;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
   color: #333;
   background-color: #FEFEFE;
 }
@@ -21,12 +20,11 @@ h1 {
   font-size: 2.4em;
   margin-bottom: .5em;
   white-space: nowrap;
-  font-weight: 200;
 }
 
 h2 {
   font-size: 1.6em;
-  font-weight: 200;
+  font-weight: normal;
   margin-bottom: 1em;
   text-align: center;
 }
@@ -38,18 +36,15 @@ h3 {
   margin-bottom: .5em;
   margin-top: 1em;
   line-height: 1.6em;
-  font-weight: 400;
+  font-weight: bold;
 }
 h4 {
   font-size: 1.1em;
   margin: 1.25em 0 .25em 0;
-  font-weight: 400;
+  font-weight: bold;
 }
 p {
   margin: .25em 0 .75em 0;
-}
-strong {
-  font-weight: 400;
 }
 a {
   text-decoration: none;
@@ -59,7 +54,7 @@ a:hover {
   color: #007ADE;
 }
 table > thead td {
-  font-weight: 300;
+  font-weight: bold;
   border-bottom: 1px solid #EEE;
 }
 td {
@@ -67,7 +62,7 @@ td {
 }
 
 code {
-  font-size: .6em;
+  font-size: .8em;
   line-height: 1.2em;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   margin: 1em;
@@ -79,7 +74,7 @@ code {
 }
 .navigation {
   text-align: center;
-  font-weight: 300;
+  font-weight: bold;
   padding: .25em 0; 
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE;
@@ -97,7 +92,7 @@ code {
 }
 .navigation > ul > li > a.current {
   color: #DE3400;
-  font-weight: 400;
+  font-weight: bold;
 }
 .content {
   padding: 1em 0;
@@ -109,8 +104,9 @@ code {
   border-bottom: 1px solid #007ADE;
 }
 .footer {
+  color: #666;
   border-top: 1px solid #EEE;
-  font-size: .75em;
+  font-size: .8em;
 }
 .footer > .social ul {
   float: right;
