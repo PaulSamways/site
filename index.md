@@ -15,7 +15,6 @@ where I'm currently employed.
 When I'm not working, or spending time with my family, I enjoy hacking away
 on [some project](/programming/), or working on my car.
 
-
 ### about this site
 
 This site came about after a mate was explaining his new Node 

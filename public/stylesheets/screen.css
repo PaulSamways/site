@@ -13,6 +13,10 @@ body {
   background-color: #FEFEFE;
 }
 
+p {
+  text-align: justify;
+}
+
 ul, ol {
   margin: 0 0 1em 1em;
 }
