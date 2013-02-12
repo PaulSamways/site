@@ -73,7 +73,8 @@ code {
   margin: 1em;
   padding: .5em;
   border: 1px solid #CCC;
-  background-color: #EEE;
+  background-color: #F3F3F3;
+  border-radius: .25em;
   display: block;
   white-space: pre-wrap;
 }
