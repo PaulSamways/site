@@ -1,3 +1,5 @@
+## About
+
 ### whoami
 
 Hi, my name is Paul (obviously) and I'm a husband, father and computer programmer.
@@ -23,4 +25,5 @@ be an interesting exercise to do something similiar in [Go](http://golang.org).
 So after a couple of hours I had a basic version up and running and figured
 I may as well put it to use. 
 
-So you could say I wrote something interesting, then had to find a use for it. &#9786;
+It is currently hosted on a Raspberry Pi via my home broadband connection, so if 
+it happens to be down when you try to visit, just try again later. 
