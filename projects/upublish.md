@@ -25,7 +25,7 @@ $ upublish
 Name      | Default       | Description
 ----------|---------------|---------------------------------------------------
 -addr     | :8080         | The address to listen for incoming connections on
--path     | .             | Path to serve files from
+-path     | ./            | Path to serve files from
 -public   | .public       | Directory where the static files are located
 
 
