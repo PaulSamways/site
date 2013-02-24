@@ -1,3 +1,5 @@
+## GoPkgSearch
+
 Instant searching of the packages in GOROOT/src/pkg and GOPATH.
 
 ### Prerequisites
