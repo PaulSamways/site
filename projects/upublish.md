@@ -119,3 +119,13 @@ to be reloaded and the cache updated accordingly.
 &micro;Publish has been written to run as a standalone process. The easiest
 way to start the process on a Linux machine is to use Systemd. See my article
 on running [Go web servers using Systemd](/articles/go-systemd) for further information.
+
+### Getting &micro;Publish
+
+The source can be found at https://github.com/PaulSamways/upublish.
+
+Alternatively, &micro;Publish can be fetched via 'go get':
+
+``` Bash
+$ go get github.com/PaulSamways/upublish
+```
