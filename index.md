@@ -1,5 +1,3 @@
-## About
-
 ### whoami
 
 Hi, my name is Paul (obviously) and I'm a husband, father and computer programmer.

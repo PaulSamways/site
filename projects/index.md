@@ -1,7 +1,5 @@
-## Projects 
-
-#### [**&micro;Publish**](upublish)
+### [**&micro;Publish**](upublish)
 Web publishing engine written in Go.
 
-#### [**GoPkgSearch**](gopkgsearch)
+### [**GoPkgSearch**](gopkgsearch)
 Instant searching of Go packages.

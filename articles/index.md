@@ -1,5 +1,3 @@
-## Articles
-
 ### Linux
 
 #### [Using systemd to manage a Go (or any) process](go-systemd)
