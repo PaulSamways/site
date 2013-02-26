@@ -1,6 +1,6 @@
 ### whoami
 
-Hi, my name is Paul (obviously) and I'm a husband, father and computer programmer.
+Hi, I'm Paul and I'm a husband, father and computer programmer.
 
 I met my beautiful wife, Charlene, back when we were in high school and
 have been together ever since. Somewhere along the way the ducks got in a row;
@@ -24,4 +24,4 @@ So after a couple of hours I had a basic version up and running and figured
 I may as well put it to use. 
 
 It is currently hosted on a Raspberry Pi via my home broadband connection, so if 
-it happens to be down when you try to visit, just try again later. 
+it happens to be down when you try to visit, just try again later.
