@@ -93,6 +93,22 @@ GET: /articles/abc
 
 ```
 
+#### Content Files
+
+Content in &micro;Publish is written using Markdown and stored as .md files.
+The location of the files relative to the root determines the URL that will 
+be used to access the pages.
+
+``` Bash
+$ upublish -path="/srv/http/mysite"
+```
+
+/srv/http/mysite/projects/xyz/about.md -> /projects/xyz/about
+
+
+When a request is made which does not specify a file, &micro;Publish will 
+attempt to serve an index.md file.
+
 #### Reloading Pages
 
 &micro;Publish caches all content pages and layouts when the server starts,
