@@ -52,6 +52,11 @@ h4 {
   margin: 1.25em 0 .25em 0;
   font-weight: 400;
 }
+h5 {
+  font-size: 1em;
+  margin: 1.25em 0 .25em 0;
+  font-weight: 400;
+}
 p {
   margin: .25em 0 .75em 0;
 }
