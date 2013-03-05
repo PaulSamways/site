@@ -10,24 +10,26 @@ things just work.
 Unfortunately at some point, things will go pear shaped, you will pass
 some text through a component of your system and all of a sudden your 
 accented e will turn into &#195;&#169;. When this happens, you can either
-chock it down to corruption or recognize it for what it is, a simple
-case of mistaken encoding.
+chock it down to corruption or recognize it for what it is, a simple case
+of mistaken encoding.
 
-Since the most popular encoding is UTF-8, it makes sense that we focus
-on this encoding so you can see just how that é turned into a copyrighted
-Ã.
+Since UTF-8 is the most widely used encoding, and also the one that will
+work most of the time (for english anyway) when treated as ASCII, it will
+be the focus of this article.
 
-### Unicode
+### What is Unicode?
 Unicode is the standard used for representing most of the characters in the
 world's writing systems. Each character is given a value, referred to as
 a "code point", in the range of 0 - 1,114,111. When representing a code point
-in memory, an encoding must be used and this is where UTF (UCS Transformation
+in memory, an encoding can be used and this is where UTF-8 (UCS Transformation
 Format) comes in.
 
-### UTF-8
+### How does UTF-8 work?
+UTF-8 works by taking the Unicode code point and encoding it as a variable
+length sequence of bytes. 
 
 As defined in [RFC 3629](http://tools.ietf.org/html/rfc3629), the method
-for encoding a code point as UTF-8 is as follows:
+for encoding a code point is as follows:
 
   1. Determine how many bytes will be required to store the code point. The
   simple method is that if the code point value can be stored in 7-bits
@@ -72,14 +74,14 @@ func encode(r int32) []byte {
 }
 ```
 
-### Corruption 
-So all this is pretty straight forward, but how did those "funny" characters
-get into your text?
+### But what about the é?
 
-**Most likely, you're treating your UTF-8 encoded stream of characters as ASCII.**
+Well the é has the Unicode code point value of 0xC9.
 
-You've told the system that the bytes [0xC3 0xA9] should be interpreted as 
-two extended ASCII characters, not a single UTF-8 encoded sequence. This is an
-easy mistake to make, during development you'll assume the stream is ASCII.
-You'll do some tests, of course only in english, and everything will pass. It is
-not until some joker decides to write 
+0xC9 is greater then 0x7F, so we already know that it will be a multi-byte sequence.
+
+After applying the above algorithm we get the sequence [0xC3 0xA9].
+
+When that sequence is interpreted as extended ASCII we get Ã©.
+
+Easy.
