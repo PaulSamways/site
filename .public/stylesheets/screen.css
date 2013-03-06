@@ -5,7 +5,7 @@
 
 body {
   margin: 1em;
-  font-size: 120%;
+  font-size: 100%;
   line-height: 1.4em;
   font-family: Garamond, Georgia, serif;
   color: #444;
@@ -75,7 +75,7 @@ td {
 }
 
 code {
-  font-size: .7em;
+  font-size: .9em;
   line-height: 1.2em;
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   margin: 1em;
