@@ -89,13 +89,13 @@ code {
 .navigation {
   font-size: 1.1em;
   text-align: center;
-  font-variant: small-caps;
   padding: .25em 0; 
   margin: 1.5em 0;
   border-top: 1px solid #EEE;
   border-bottom: 1px solid #EEE;
 }
 .navigation > ul {
+  background-color: #F3F3F3;
   list-style-type: none; 
   margin: 0;
 }
