@@ -90,7 +90,6 @@ GET: /articles/abc
     ABC
   </div>
 </div>
-
 ```
 
 #### Content Files
@@ -127,7 +126,6 @@ to be reloaded and the cache updated accordingly.
   while inotifywait -r -e modify -e create -e delete .; do 
     killall -USR1 upublish; 
   done
-  
 ```
 
 #### Hosting
