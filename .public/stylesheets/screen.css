@@ -87,7 +87,7 @@ code {
   white-space: pre-wrap;
 }
 .navigation {
-  font-size: 1.1em;
+  font-weight: bold;
   text-align: center;
   padding: .25em 0; 
   margin: 1.5em 0;
