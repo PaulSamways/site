@@ -5,7 +5,7 @@ Simple object to object mapper.
 
 ### how to use
 
-#### Configuring:
+#### Configuring
 
 Before you can map objects you must register the function that does the 
 actual mapping. This only needs to be executed once, so the best place 
@@ -19,7 +19,7 @@ Mapping<User, UserDTO>.Configure((from, to) => {
 });
 ```
 
-#### Using:
+#### Mapping
 
 Map an object to a new instance:
 
