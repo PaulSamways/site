@@ -1,33 +1,39 @@
-## GoPkgSearch
+Web application for searching the packages in $GOROOT/src/pkg and $GOPATH.
 
-Instant searching of the packages in GOROOT/src/pkg and GOPATH.
+## Prerequisites
 
-### Prerequisites
-
-Gopkgsearch requires that the Go source code is available on the machine 
-and that the GOROOT environment variable has been set. 
+GoPkgSearch requires that the Go source code is available on the machine and that the GOROOT environment variable has been set. 
 
 See http://golang.org/doc/install/source#environment
 
+## Installation
 
-### Installation
-
-Gopkgsearch can be fetched using 'go get':
+GoPkgSearch can be fetched using 'go get':
 
   `go get github.com/PaulSamways/gopkgsearch`
 
-### Usage
+## Usage
 
-Starting Gopkgsearch without any parameters will cause the Go source files 
-to be indexed and a web server to be started on port 8000. If you want to
-have your GOPATH directories indexed as well then the -useGoPath option can 
-be used.
+### Starting the server
+
+When GoPkgSearch is launched without any parameters, the Go stdlib source files will indexed and the web application started.
+
+Indexing of the source files in the GOPATH directories can be enabled by using the '-useGoPath' option.
 
   `./gopkgsearch [-usegopath=true]`
 
-Once Gopkgsearch has been started, open a web browser to localhost:8000 and 
-start searching.
+### Using the client
 
-### Screenshot
+After the GoPkgSearch server has finished indexing the source files and the web server has been started, open up a browser and navigate to the web application, by default http://localhost:8000.
 
-![Screenshot of Gopkgsearch](/public/images/gopkgsearch.gif)
+Modes:
+
+`join`: Find all types or methods that contain the word 'join'.
+
+`utf8.rune`: Searching only in the utf8 package, find all types of methods that contain the word 'rune'.
+
+`http.request.form`: Searching only in the http.Request type, find all methods that contain the word 'form'.
+
+## Screenshot
+
+![Screenshot of GoPkgSearch](/public/images/gopkgsearch.gif)
