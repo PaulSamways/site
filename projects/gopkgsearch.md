@@ -1,20 +1,20 @@
 Web application for searching the packages in $GOROOT/src/pkg and $GOPATH.
 
-## Prerequisites
+### Prerequisites
 
 GoPkgSearch requires that the Go source code is available on the machine and that the GOROOT environment variable has been set. 
 
 See http://golang.org/doc/install/source#environment
 
-## Installation
+### Installation
 
 GoPkgSearch can be fetched using 'go get':
 
   `go get github.com/PaulSamways/gopkgsearch`
 
-## Usage
+### Usage
 
-### Starting the server
+#### Starting the server
 
 When GoPkgSearch is launched without any parameters, the Go stdlib source files will indexed and the web application started.
 
@@ -22,7 +22,7 @@ Indexing of the source files in the GOPATH directories can be enabled by using t
 
   `./gopkgsearch [-usegopath=true]`
 
-### Using the client
+#### Using the client
 
 After the GoPkgSearch server has finished indexing the source files and the web server has been started, open up a browser and navigate to the web application, by default http://localhost:8000.
 
@@ -39,6 +39,6 @@ Searching only in the utf8 package, find all types of methods that contain the w
 `http.request.form`
 Searching only in the http.Request type, find all methods that contain the word 'form'.
 
-## Screenshot
+### Screenshot
 
 ![Screenshot of GoPkgSearch](/public/images/gopkgsearch.gif)
