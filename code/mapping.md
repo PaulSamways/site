@@ -1,9 +1,9 @@
 ## Mapping
 
-### about
+### About
 Simple object to object mapper.
 
-### how to use
+### How to use
 
 #### Configuring
 
@@ -49,7 +49,7 @@ var dtos = users
   .ToArray();
 ```
 
-### source
+### Source
 
 ``` CSharp
 public static class Mapping<TFrom, TTo>
@@ -89,7 +89,7 @@ public static class Mapping<TFrom, TTo>
 }
 ```
 
-### download
+### Download
 Source code and examples are available to download as a zip archive.
 
 <i class="icon-cloud-download"></i> [MappingExamples.zip](/public/downloads/MappingExamples.zip)
