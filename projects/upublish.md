@@ -1,6 +1,6 @@
 ## &micro;Publish
 
-### about
+### About
 
 &micro;Publish is a web publishing engine written in [Go](http://golang.org).
 
@@ -10,7 +10,7 @@ Features include:
 - Folder-inherited layouts, so you can control the look and feel of your site.
 - Content pages are written in Markdown.
 
-### usage
+### Usage
 
 By default, &micro;Publish expects to be executed in the directory that you wish 
 to serve.
