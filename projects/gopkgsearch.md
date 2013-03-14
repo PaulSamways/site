@@ -28,11 +28,16 @@ After the GoPkgSearch server has finished indexing the source files and the web 
 
 Modes:
 
-`join`: Find all types or methods that contain the word 'join'.
+`join`
+Find all types or methods that contain the word 'join'.
 
-`utf8.rune`: Searching only in the utf8 package, find all types of methods that contain the word 'rune'.
 
-`http.request.form`: Searching only in the http.Request type, find all methods that contain the word 'form'.
+`utf8.rune`
+Searching only in the utf8 package, find all types of methods that contain the word 'rune'.
+
+
+`http.request.form`
+Searching only in the http.Request type, find all methods that contain the word 'form'.
 
 ## Screenshot
 
