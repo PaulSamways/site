@@ -33,7 +33,7 @@ Find all types or methods that contain the word 'join'.
 
 
 `utf8.rune`
-Searching only in the utf8 package, find all types of methods that contain the word 'rune'.
+Searching only in the utf8 package, find all types or methods that contain the word 'rune'.
 
 
 `http.request.form`
