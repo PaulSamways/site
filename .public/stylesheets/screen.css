@@ -69,6 +69,7 @@ a:hover {
 }
 table > thead td {
   border-bottom: 1px solid #EEE;
+  font-weight: bold;
 }
 td {
   padding: 0 1em;
@@ -139,4 +140,30 @@ code {
   .navigation > ul > li > a {
     padding: 0 .5em;
   }
+}
+
+.bmw > .m-stripe {
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 24em;
+  height: 24em;
+}
+.bmw > .m-stripe > div {
+  border-bottom: 1.3em solid #79ADFD;
+  background-color: #224270;
+  border-top: 1.3em solid #E72E36;
+  height: 1.3em;
+  width: 24em;
+  position: relative;
+  top: 5em;
+  right: -5em;
+  z-index: -1;
+
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
 }
