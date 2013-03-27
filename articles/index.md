@@ -8,6 +8,6 @@ automatically restarted if it dies.
 
 ### Programming
 
-#### [Case of mistaken encoding](case-of-mistaken-encoding)
+#### [A case of mistaken encoding](case-of-mistaken-encoding)
 Short article on Unicode, UTF-8 and what can happen when the wrong
 encoding is used.
