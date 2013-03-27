@@ -1,4 +1,4 @@
-## Case of mistaken encoding
+##  A case of mistaken encoding
 
 ### Preface
 With the abstractions built into many modern programming langauges
@@ -10,7 +10,7 @@ things just work.
 Unfortunately at some point, things will go pear shaped, you will pass
 some text through a component of your system and all of a sudden your 
 accented e will turn into &#195;&#169;. When this happens, you can either
-chock it down to corruption or recognize it for what it is, a simple case
+put it down to corruption or recognize it for what it is, a simple case
 of mistaken encoding.
 
 Since UTF-8 is the most widely used encoding, and also the one that will
