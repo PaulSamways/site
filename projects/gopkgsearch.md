@@ -10,7 +10,7 @@ See http://golang.org/doc/install/source#environment
 
 GoPkgSearch can be fetched using 'go get':
 
-  `go get github.com/PaulSamways/gopkgsearch`
+  `go get github.com/paulsamways/gopkgsearch`
 
 ### Usage
 
