@@ -1,6 +1,13 @@
-### References
+<div style="float: right;">
+  <a href="/public/downloads/references.pdf" title="Download PDF" class="fa-stack fa-lg">
+    <i class="fa fa-square fa-stack-2x"></i>
+    <i class="fa fa-file fa-stack-1x fa-inverse"></i>
+  </a>
+</div>
 
-#### Ben Hughes _(Senior Software Engineer)_
+## References
+
+### Ben Hughes _(Senior Software Engineer)_
 <a name="ben"></a>
 Paul is one of the most talented software engineers I've worked with in my 12 years in the industry. He is thorough, passionate and can view problems at multiple levels of abstraction.
 
