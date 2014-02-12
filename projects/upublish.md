@@ -141,5 +141,5 @@ The source can be found at https://github.com/PaulSamways/upublish.
 Alternatively, &micro;Publish can be fetched via 'go get':
 
 ``` Bash
-$ go get github.com/PaulSamways/upublish
+$ go get github.com/paulsamways/upublish
 ```
