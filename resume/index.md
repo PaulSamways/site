@@ -70,16 +70,20 @@ Responsible for:
 
 ### Education
 
-**Introduction to Functional Programming** - NICTA
+**Introduction to Functional Programming** - _NICTA_
+
 Completed 2014
 
 **Sitecore Foundations & .NET Developer Course**
+
 Completed 2012
 
-**Diploma of Information Technology (Network Engineering)** - Riverina Tafe Campus
+**Diploma of Information Technology (Network Engineering)** - _Riverina Tafe Campus_
+
 Completed 2005
 
-**Higher School Certificate** - Wagga Wagga High School
+**Higher School Certificate** - _Wagga Wagga High School_
+
 Completed 2003
 
 ### References
